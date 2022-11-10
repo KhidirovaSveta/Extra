@@ -1,0 +1,110 @@
+.red {
+    border-bottom: 10px solid rgb(255, 64, 64);
+    border-radius: 10px;
+    background-color: red;
+    opacity: 0.7;
+    color: whitesmoke;
+    width: 130px;
+    height: 60px;
+    padding: 10px;
+    text-align: center;
+    margin: 5px;
+    transition-duration: 0.3s;
+}
+
+.orange {
+    border-bottom: 10px solid rgb(245, 186, 77);
+    border-radius: 10px;
+    background-color: orange;
+    opacity: 0.7;
+    color: whitesmoke;
+    width: 130px;
+    height: 60px;
+    padding: 10px;
+    text-align: center;
+    margin: 5px;
+    transition-duration: 0.3s;
+}
+.yellow {
+    border-bottom: 10px solid rgb(251, 255, 128);
+    border-radius: 10px;
+    background-color: rgb(249, 249, 0);
+    opacity: 0.7;
+    color: whitesmoke;
+    width: 130px;
+    height: 60px;
+    padding: 10px;
+    text-align: center;
+    margin: 5px;
+    transition-duration: 0.3s;
+
+}
+
+.green {
+    border-bottom: 10px solid rgb(67, 228, 67);
+    border-radius: 10px;
+    background-color: rgb(0, 191, 0);
+    opacity: 0.7;
+    color: whitesmoke;
+    width: 130px;
+    height: 60px;
+    padding: 10px;
+    text-align: center;
+    margin: 5px;
+    transition-duration: 0.3s;
+}
+
+.blue {
+    border-bottom: 10px solid rgb(67, 67, 255);
+    border-radius: 10px;
+    background-color: blue;
+    opacity: 0.7;
+    color: whitesmoke;
+    width: 130px;
+    height: 60px;
+    padding: 10px;
+    text-align: center;
+    margin: 5px;
+    transition-duration: 0.3s;
+}
+.green:hover {
+    opacity: 1.0;
+    color: rgb(0, 191, 0);
+    width: 140px;
+    height: 65;
+    border-bottom: 10px solid rgb(0, 191, 0);
+  }
+  
+.yellow:hover {
+    opacity: 1.0;
+    color: rgb(249, 249, 0);
+    width: 140px;
+    height: 65;
+    border-bottom: 10px solid rgb(249, 249, 0);
+  }
+.red:hover {
+    opacity: 1.0;
+    color: red;
+    width: 140px;
+    height: 65;
+    border-bottom: 10px solid red;
+  }
+.blue:hover {
+    opacity: 1.0;
+    color: blue;
+    width: 140px;
+    height: 65;
+    border-bottom: 10px solid blue;
+}
+.orange:hover {
+    opacity: 1.0;
+    color: orange;
+    width: 140px;
+    height: 65;
+    border-bottom: 10px solid orange;
+}
+.all {
+    display: flex;
+    justify-content: center;
+    padding: 17em;
+}
