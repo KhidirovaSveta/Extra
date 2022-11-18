@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt:ital,wght@0,200;1,100&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(4, 4, 44);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Prompt', sans-serif;
+
+}
+.container {
+    background-color: rgba(255, 255, 255, 0.883);
+    width: 300px;
+    height: 600px;
+    margin-top: 70px ;
+    border-radius: 17px;
+    position: relative;
+    box-shadow: 5px 2px 25px 3px rgb(0, 2, 21);
+}
+
+.header {
+    background-color: rgb(183, 101, 0);
+    width: 300px;
+    height: 50%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+.nike img{
+    width: 350px;
+    height: 350px;
+    position: absolute;
+    left: 90px;
+    top: -30px;
+}
+.nike2{
+display: none;
+}
+.footer {
+  margin: 15px;
+}
+.stars {
+    font-size: 11px;
+}
+.header p {
+    color: white;
+    margin: 0px 18px 3px;
+    font-family: 'Prompt', sans-serif;
+    
+}
+.loren {
+    font-weight: bold;
+    letter-spacing: 5px;
+}
+
+.air {
+    display: flex;
+    align-items: center;
+}
+.new {
+    width: 35px;
+    height: 19px;
+    border-radius: 5px;
+    background-color: rgba(34, 119, 0, 0.863);
+    color: white;
+    font-size: 13px;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+}
+.logo img{
+    width: 70px;
+    height: 25px;
+    margin: 30px 25px;
+}
+.size p {
+    margin: 3px 7px;
+    font-weight: bold;
+    font-size: 13px;
+}
+.size2 {
+    display: flex;
+}
+.nine {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: rgba(34, 119, 0, 0.863);
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+.size span {
+    margin: 0 10px;
+}
+.color {
+    margin: 25px 7px;
+    font-weight: bold;
+    font-size: 13px;
+}
+.circle-box{
+    display: flex;
+    box-sizing: border-box;
+}
+.circle {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: rgba(0, 13, 126, 0.863);
+    box-shadow: 2px 3px 5px  rgba(0, 13, 124, 0.6) ;
+    margin-top: 7px;
+}
+.circle2 {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: rgba(90, 1, 1, 0.822);
+    box-shadow: 2px 3px 5px  rgba(90, 1, 1, 0.822) ;
+    margin-left: 17px;
+    margin-top: 7px;
+}
+.usd {
+    width: 130px;
+    height: 40px;
+    background-color: rgb(31, 14, 122);
+    border-radius: 5px;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.5);
+    position: absolute;
+    left: 180px;
+    font-family: 'Prompt', sans-serif;
+    font-size: 17px;
+}
+.usd p {
+    color: white;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 7px;
+}
+.usd span {
+    font-weight: bold;
+}
