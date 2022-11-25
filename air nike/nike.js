@@ -13,3 +13,14 @@ blue.addEventListener("click",function(){
     red.style.display="none"
     blueNike.style.display="block"
     })
+
+
+let size=document.querySelector(".size2")
+let numbers=document.querySelector("span")
+
+numbers.addEventListener("click", function () {
+        numbers.style.color = "green"
+    })
+
+
+
