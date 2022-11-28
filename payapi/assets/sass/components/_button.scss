@@ -1,0 +1,21 @@
+%primary-button {
+    color: #fff;
+    border-radius: 24px;
+    background-color: $secondary-color;
+    width: 173px;
+    height: 48px;
+    font-weight: 700;
+    border: none;
+    cursor: pointer;
+}
+
+%secondary-button {
+    border: 1px solid #FBFCFE;
+    color: #fff;
+    border-radius: 24px;
+    background-color: transparent;
+    width: 129px;
+    height: 48px;
+    font-weight: 700;
+    cursor: pointer;
+}

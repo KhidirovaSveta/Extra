@@ -1,0 +1,185 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap");
+
+body {
+  background-color: $bg-color;
+}
+header {
+  position: relative;
+  .container {
+    .headNav {
+      padding-top: 55px;
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      column-gap: 65px;
+      nav {
+        @include flexBox;
+        column-gap: 40px;
+        li {
+          list-style: none;
+          color: $primary-color;
+          font-weight: 700;
+          opacity: 0.6;
+          transition: all 0.35s;
+          &:hover {
+            opacity: 1;
+            cursor: pointer;
+          }
+        }
+      }
+      button {
+        margin-left: 520px;
+        @extend %primary-button;
+        &:hover {
+          background-color: $button-color;
+        }
+      }
+    }
+  }
+}
+
+// First Section 
+
+#start {
+  .container {
+    .main {
+      color: $primary-color;
+      display: flex;
+      .cyrcle {
+        position: absolute;
+        left: 880px;
+        top: -40px;
+      }
+      .info {
+        padding-top: 166px;
+        h1 {
+          font-size: 72px;
+          width: 546px;
+          font-family: "DM Serif Display", serif;
+        }
+        .email {
+          position: relative;
+          input {
+            border: none;
+            margin-top: 25px;
+            width: 410px;
+            height: 46px;
+            background-color: #fff;
+            border-radius: 24px;
+            z-index: -1;
+            padding-left: 25px;
+            box-shadow: 10px 10px 25px -10px rgba(54, 83, 107, 0.25);
+          }
+          p {
+            padding-left: 27px;
+            padding-top: 15px;
+            font-weight: 700;
+          }
+          button {
+            @extend %primary-button;
+            position: absolute;
+            left: 270px;
+            top: 25px;
+            &:hover {
+              background-color: $button-color;
+            }
+          }
+        }
+        .question {
+          margin-top: 19px;
+          margin-left: 27px;
+          opacity: 0.7;
+          a {
+            text-decoration: none;
+            font-weight: 700;
+            color: $primary-color;
+          }
+        }
+      }
+      .phone {
+        z-index: 2;
+        margin-left: 190px;
+        padding-bottom: 75px;
+      }
+    }
+  }
+}
+
+//  Partner companies
+
+#part {
+    background-color: $section;
+    position: relative;
+    z-index: -1;
+    .container {
+        .workwith {
+            color: #fff;
+            padding-top: 100px;
+            padding-left: 165px;
+            @include flexBox;
+          .text {
+            h2 {
+                font-size: 48px;
+                padding-bottom: 24px;
+            }
+            p {
+                width: 445px;
+                line-height: 28px;
+                padding-bottom: 32px;
+                opacity: 0.7;
+            }
+            button {
+                @extend %secondary-button;
+                &:hover {
+                  background-color: #FBFCFE;
+                  color: #000;
+                }
+            }
+            padding-bottom: 100px;
+            .cyrcle2 {
+                position: absolute;
+                z-index: -2;
+                left: 0;
+                top: 0px
+            }
+           }  
+            .company {
+              margin-left: 131px;
+              margin-bottom: 100px;
+            }
+        }
+    }
+    margin-bottom: 150px;
+}
+
+//  Code Section
+
+#code {
+  .container {
+    .main {
+      @include flexBox;
+      .code {
+        background-color: $section;
+        box-shadow: 25px 25px 80px rgba(54, 83, 107, 0.300727);
+        border-radius: 8px;
+        margin-right: 150px;
+        padding-bottom: 32px;
+      }
+
+      .text {
+        color: $primary-color;
+        width: 445px;
+        h1 {
+          font-size: 48px;
+          font-family: "DM Serif Display", serif;
+          margin-bottom: 24px;
+        }
+        p {
+          color: #6C8294;
+          line-height: 28px;
+        }
+      }
+    }
+  }
+  margin-bottom: 163px;
+}
