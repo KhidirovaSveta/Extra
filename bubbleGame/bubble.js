@@ -13,17 +13,17 @@ let bubbleInterval;
 let bubbleScore = 0;
 // let person;
 
-// window.onload = (event) => {
-//   let person = document.createElement("p");
-//   event = prompt("Please enter your name");
-//   person.innerText = event.value;
-//   user.appendChild(person);
+window.onload = (event) => {
+  let person = document.createElement("p");
+  event = prompt("Please enter your name");
+  person.innerText = event;
+  user.appendChild(person);
 
-//   // if ((event = prompt("Please enter your name"))) {
-//   //   person.innerText = event.value;
-//   //   user.appendChild(person);
-//   // }
-// };
+  // if ((event = prompt("Please enter your name"))) {
+  //   person.innerText = event;
+  //   user.appendChild(person);
+  // }
+};
 
 start.addEventListener("click", function () {
   start.disabled = true;
