@@ -6,10 +6,24 @@ let medium = document.querySelector("#medium");
 let hard = document.querySelector("#hard");
 let score = document.querySelector("#score");
 let reset = document.querySelector("#reset");
+let user = document.querySelector("#user");
 
 let bubble;
 let bubbleInterval;
 let bubbleScore = 0;
+// let person;
+
+// window.onload = (event) => {
+//   let person = document.createElement("p");
+//   event = prompt("Please enter your name");
+//   person.innerText = event.value;
+//   user.appendChild(person);
+
+//   // if ((event = prompt("Please enter your name"))) {
+//   //   person.innerText = event.value;
+//   //   user.appendChild(person);
+//   // }
+// };
 
 start.addEventListener("click", function () {
   start.disabled = true;
@@ -39,13 +53,12 @@ medium.addEventListener("click", function () {
   clearInterval(bubbleInterval);
   bubbleInterval = setInterval(function () {
     creatBubble();
+    bubble.addEventListener("click", function () {
+      this.remove();
+      bubbleScore += 1;
+      score.innerText = bubbleScore;
+    });
   }, 1000);
-
-  bubble.addEventListener("click", function () {
-    this.remove();
-    bubbleScore += 2;
-    score.innerText = bubbleScore;
-  });
 });
 
 hard.addEventListener("click", function () {
@@ -54,6 +67,11 @@ hard.addEventListener("click", function () {
   clearInterval(bubbleInterval);
   bubbleInterval = setInterval(function () {
     creatBubble();
+    bubble.addEventListener("click", function () {
+      this.remove();
+      bubbleScore += 2;
+      score.innerText = bubbleScore;
+    });
   }, 500);
 });
 
