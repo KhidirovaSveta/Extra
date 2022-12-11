@@ -18,11 +18,6 @@ window.onload = (event) => {
   event = prompt("Please enter your name");
   person.innerText = event;
   user.appendChild(person);
-
-  // if ((event = prompt("Please enter your name"))) {
-  //   person.innerText = event;
-  //   user.appendChild(person);
-  // }
 };
 
 start.addEventListener("click", function () {
