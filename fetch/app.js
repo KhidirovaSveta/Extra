@@ -9,7 +9,7 @@ function fetchData(endpoint) {
       function searchCat(catSearch) {
         for (let i = 0; i < catSearch.length; i++) {
           box.innerHTML += `<div class="card" style="width: 18rem;">
-          <img src="${catSearch[i].image.url}" class="card-img-top" alt="...">
+          <img src="${catSearch[i].image?.url}" class="card-img-top" alt="...">
           <div class="card-body">
           <h5 class="card-title">${catSearch[i].name}</h5>
           <p class="card-text"> ${catSearch[i].description}</p>
@@ -28,6 +28,7 @@ function fetchData(endpoint) {
         );
         box.innerHTML = "";
         searchCat(filteredData);
+        console.log(filteredData);
       });
     })
     .catch((err) => console.log(err));
