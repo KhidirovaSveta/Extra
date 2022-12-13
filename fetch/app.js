@@ -20,6 +20,13 @@ function fetchData(endpoint) {
       }
       searchCat(data);
 
+      // function fetchData(endpoint, id) {
+      //   fetch(`${BASE_URL_2}${endpoint}/${id}`, {
+      //     method: "DELETE",
+      //   });
+      // }
+      // fetchData(breeds, "ebur");
+
       search.addEventListener("input", function () {
         let filteredData = data.filter((data) =>
           data.name
