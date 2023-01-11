@@ -1,0 +1,64 @@
+{
+  "blogs": [
+    {
+      "title": "Omnis quaerat quae d",
+      "body": "Dolorum reprehenderi Dolorum reprehenderi Dolorum reprehenderi Dolorum reprehenderi\n",
+      "author": "avaz",
+      "id": 1
+    },
+    {
+      "title": "Quam id voluptate id",
+      "body": "Numquam proident re",
+      "author": "kanan",
+      "id": 3
+    },
+    {
+      "title": "Quam id voluptate id",
+      "body": "Numquam proident re",
+      "author": "kanan",
+      "id": 4
+    },
+    {
+      "title": "Code",
+      "body": "Sveta",
+      "author": "2",
+      "id": "2"
+    },
+    {
+      "title": "Code",
+      "body": "gghgg",
+      "author": "5",
+      "id": 5
+    },
+    {
+      "title": "Code",
+      "body": "gghgg",
+      "author": "8",
+      "id": 6
+    },
+    {
+      "title": "Code",
+      "body": "hi",
+      "author": "Sveta",
+      "id": 7
+    },
+    {
+      "title": "Code",
+      "body": "privet",
+      "author": "Sveta",
+      "id": 8
+    },
+    {
+      "title": "Code",
+      "body": "5",
+      "author": "Sveta",
+      "id": 9
+    },
+    {
+      "title": "Salam",
+      "body": "Hi",
+      "author": "Sveta Khidirova",
+      "id": 10
+    }
+  ]
+}

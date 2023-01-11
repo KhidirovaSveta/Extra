@@ -1,0 +1,125 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500&display=swap");
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1170px;
+  margin: 0 auto;
+  padding: 0 5%;
+}
+
+body {
+  font-family: "Ubuntu", sans-serif;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid rgba(181, 181, 181, 0.745);
+}
+.header h1 {
+  letter-spacing: 2px;
+  padding-bottom: 10px;
+  color: rgb(143, 0, 93);
+}
+.header ul {
+  display: flex;
+}
+.header ul li {
+  padding: 0 20px;
+  text-decoration: none;
+  list-style: none;
+  cursor: pointer;
+}
+.header ul li a {
+  text-decoration: none;
+}
+
+.data .dataBox {
+  margin-top: 50px;
+}
+.data .dataBox .box1 {
+  padding: 5px 15px;
+  margin-bottom: 10px;
+  transition: all 0.35s;
+}
+.data .dataBox .box1:hover {
+  box-shadow: 1px 0px 5px black;
+}
+.data .dataBox .box1 .title-color {
+  color: rgb(50, 50, 50);
+}
+.data .dataBox .box1 .purple-text {
+  color: rgb(143, 0, 93);
+}
+.data .dataBox .box1 .delBtn {
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  background-color: rgb(143, 0, 93);
+  color: #fff;
+  cursor: pointer;
+}
+
+body {
+  font-family: "Ubuntu", sans-serif;
+}
+
+.container .header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid rgba(181, 181, 181, 0.745);
+}
+.container .header h1 {
+  letter-spacing: 2px;
+  padding-bottom: 10px;
+  color: rgb(143, 0, 93);
+}
+.container .header ul {
+  display: flex;
+}
+.container .header ul li {
+  padding: 0 20px;
+  text-decoration: none;
+  list-style: none;
+  cursor: pointer;
+}
+.container .header ul li a {
+  text-decoration: none;
+}
+.container .box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 80px;
+}
+.container .box input {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  width: 347px;
+  height: 30px;
+  border: 1px solid rgba(128, 128, 128, 0.614);
+}
+.container .box textarea {
+  margin: 15px 0;
+  border: 1px solid rgba(128, 128, 128, 0.614);
+}
+.container .box button {
+  padding: 7px 20px;
+  border-radius: 5px;
+  border: none;
+  background-color: rgb(143, 0, 93);
+  color: #fff;
+  cursor: pointer;
+}
+.container .box #authors {
+  margin-top: 15px;
+  width: 347px;
+  height: 35px;
+  border: 1px solid rgba(128, 128, 128, 0.614);
+}/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,23 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+input {
+  width: 400px;
+  padding: 10px 5px;
+}
+
+/* table,
+form {
+  margin: 0 auto;
+  margin-top: 50px;
+} */
+
+table,
+tr,
+th,
+td {
+  padding: 5px;
+  text-align: center;
+}

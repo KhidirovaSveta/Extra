@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap");
+
+body {
+  background-color: rgb(241, 241, 241);
+}
+header {
+  .head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .question {
+      h1 {
+        margin: 20px 0;
+        font-weight: 600;
+        letter-spacing: 2px;
+      }
+    }
+    .mode {
+      .click {
+        border: none;
+        font-size: 20px;
+        font-weight: 400;
+      }
+    }
+  }
+  .fa-solid {
+    position: absolute;
+    top: 125px;
+    padding: 0 10px;
+    z-index: 1;
+  }
+  .search {
+    margin: 20px 0;
+    padding: 13px 35px;
+    border-radius: 5px;
+    width: 350px;
+    position: relative;
+    box-shadow: 1px 1px 5px #202c37;
+    border: none;
+  }
+
+  .cont {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+
+.card {
+  display: flex;
+  height: 400px;
+  border-radius: 7px;
+
+  #filterReg {
+    padding: 7px 20px;
+    border-radius: 4px;
+    box-shadow: 1px 1px 3px #202c37;
+    border: none;
+    option {
+      padding: 5px 0;
+    }
+  }
+}
+
+.imgFlag {
+  width: 100%;
+  height: 190px;
+  border-top-left-radius: 7px;
+  border-top-right-radius: 7px;
+}
+
+.dark-mode {
+  background-color: #202c37;
+}
+.dark-mode .card {
+  background-color: #273440;
+}
+.dark-mode .click {
+  background-color: #202c37;
+  color: white;
+}
+.dark-mode .fa-moon {
+  color: white;
+}
+.dark-mode h1 {
+  color: white;
+}
+.dark-mode li {
+  background-color: #273440;
+  color: white;
+}
+.dark-mode h5 {
+  color: white;
+}
+.dark-mode button {
+  background-color: #202c37;
+  color: white;
+}
+.dark-mode .search {
+  background-color: #273440;
+  color: white;
+  border: none;
+  box-shadow: 1px 1px 3px #273440;
+}
+.dark-mode .fa-solid {
+  color: white;
+}
+.dark-mode #filterReg {
+  background-color: #273440;
+  color: white;
+  border: none;
+  box-shadow: 1px 1px 3px #273440;
+}
+
+@media only screen and (max-width: 992px) {
+  .head {
+    display: flex;
+  }
+}
